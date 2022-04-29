@@ -15,8 +15,8 @@ class Landing extends Component {
               <div className="mainPhoneContainer">
                 <div className="firstPhoneContainer">
                   <div className="phoneName">
-                    Google Pixel
-                    <br/>
+                    Iphone 11
+                    <br />
                     Starting from $999
                     <Link to="/checkout" className="buyNowButton">
                       Buy Now
@@ -26,7 +26,7 @@ class Landing extends Component {
                     <Link to="/phone">
                       <img
                         className="img-class"
-                        src="/pixel.jpeg"
+                        src="https://amanecomm65.s3.amazonaws.com/iphone.jpeg"
                         alt="Image not found"
                         onError={(e) => {
                           e.target.onerror = null;
@@ -39,12 +39,12 @@ class Landing extends Component {
               </div>
 
               {/* Phone 2 */}
-              
+
               <div className="mainPhoneContainer">
                 <div className="firstPhoneContainer">
                   <div className="phoneName">
-                    Iphone 11 plus
-                    <br/>
+                    Samsung S21
+                    <br />
                     $1400
                     <Link to="/checkout" className="buyNowButton">
                       Buy Now
@@ -54,7 +54,7 @@ class Landing extends Component {
                     <Link to="/phone">
                       <img
                         className="img-class"
-                        src="iphone10.jpeg"
+                        src="https://amanecomm65.s3.amazonaws.com/s21.jpeg"
                         alt="Image not found"
                         onError={(e) => {
                           e.target.onerror = null;
@@ -67,12 +67,12 @@ class Landing extends Component {
               </div>
 
               {/* Phone 3 */}
-              
+
               <div className="mainPhoneContainer">
                 <div className="firstPhoneContainer">
                   <div className="phoneName">
-                    Iphone 10
-                    <br/>
+                    Google Pixel
+                    <br />
                     $1299
                     <Link to="/checkout" className="buyNowButton">
                       Buy Now
@@ -82,7 +82,7 @@ class Landing extends Component {
                     <Link to="/phone">
                       <img
                         className="img-class"
-                        src="iphone9.jpeg"
+                        src="https://amanecomm65.s3.amazonaws.com/pixel.jpeg"
                         alt="Image not found"
                         onError={(e) => {
                           e.target.onerror = null;
