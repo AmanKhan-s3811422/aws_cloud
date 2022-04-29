@@ -26,7 +26,7 @@ class Landing extends Component {
                     <Link to="/phone">
                       <img
                         className="img-class"
-                        src="https://amanecomm65.s3.amazonaws.com/iphone.jpeg"
+                        src="https://d3tg45pnfc74o1.cloudfront.net/iphone.jpeg"
                         alt="Image not found"
                         onError={(e) => {
                           e.target.onerror = null;
@@ -54,7 +54,7 @@ class Landing extends Component {
                     <Link to="/phone">
                       <img
                         className="img-class"
-                        src="https://amanecomm65.s3.amazonaws.com/s21.jpeg"
+                        src="https://d3tg45pnfc74o1.cloudfront.net/s21.jpeg"
                         alt="Image not found"
                         onError={(e) => {
                           e.target.onerror = null;
@@ -82,7 +82,7 @@ class Landing extends Component {
                     <Link to="/phone">
                       <img
                         className="img-class"
-                        src="https://amanecomm65.s3.amazonaws.com/pixel.jpeg"
+                        src="https://d3tg45pnfc74o1.cloudfront.net/pixel.jpeg"
                         alt="Image not found"
                         onError={(e) => {
                           e.target.onerror = null;
