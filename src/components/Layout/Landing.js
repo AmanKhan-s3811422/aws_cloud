@@ -9,7 +9,7 @@ class Landing extends Component {
   render() {
 
     const client = {
-      sandbox:    'AT3JKET4NQDTH5xxCYXUC6Lx9vi6R5cA4yV28RiCGjx_hu9B-fuuW7glA01KbfsPk-2ZInRnIDlW--cl'
+      sandbox:    'AUE9NwF1I8SPPMdm1E-a1qjayNpcINkys29C4J-m7njZDGPiR3G7WqGOF-WzGt9Ygsj91RCguOo9-0e0'
   }
 
     return (
@@ -29,7 +29,7 @@ class Landing extends Component {
                     <Link to="/checkout" className="buyNowButton">
                       Buy Now
                     </Link>
-                    <PaypalBtn client={client} currency={'USD'} total={999.00} />
+                    <PaypalBtn client={client} currency={'AUD'} total={999.00} />
                   </div>
                   <div className="phoneImageContainer">
                     <Link to="/phone">
@@ -58,7 +58,7 @@ class Landing extends Component {
                     <Link to="/checkout" className="buyNowButton">
                       Buy Now
                     </Link>
-                    <PaypalBtn client={client} currency={'USD'} total={1400.00} />
+                    <PaypalBtn client={client} currency={'AUD'} total={1400.00} />
                   </div>
                   <div className="phoneImageContainer">
                     <Link to="/phone">
@@ -87,7 +87,7 @@ class Landing extends Component {
                     <Link to="/checkout" className="buyNowButton">
                       Buy Now
                     </Link>
-                    <PaypalBtn client={client} currency={'USD'} total={1299.00} />
+                    <PaypalBtn client={client} currency={'AUD'} total={1299.00} />
                   </div>
                   <div className="phoneImageContainer">
                     <Link to="/phone">
