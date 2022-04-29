@@ -1,9 +1,17 @@
 import React, { Component } from "react";
 import Header from './Header';
 import { Link } from "react-router-dom";
+import PaypalBtn from 'react-paypal-checkout';
 
 class Landing extends Component {
+
+
   render() {
+
+    const client = {
+      sandbox:    'AT3JKET4NQDTH5xxCYXUC6Lx9vi6R5cA4yV28RiCGjx_hu9B-fuuW7glA01KbfsPk-2ZInRnIDlW--cl'
+  }
+
     return (
       <div className="landing">
         <div className="light-overlay landing-inner text-dark">
@@ -21,6 +29,7 @@ class Landing extends Component {
                     <Link to="/checkout" className="buyNowButton">
                       Buy Now
                     </Link>
+                    <PaypalBtn client={client} currency={'USD'} total={999.00} />
                   </div>
                   <div className="phoneImageContainer">
                     <Link to="/phone">
@@ -49,6 +58,7 @@ class Landing extends Component {
                     <Link to="/checkout" className="buyNowButton">
                       Buy Now
                     </Link>
+                    <PaypalBtn client={client} currency={'USD'} total={1400.00} />
                   </div>
                   <div className="phoneImageContainer">
                     <Link to="/phone">
@@ -77,6 +87,7 @@ class Landing extends Component {
                     <Link to="/checkout" className="buyNowButton">
                       Buy Now
                     </Link>
+                    <PaypalBtn client={client} currency={'USD'} total={1299.00} />
                   </div>
                   <div className="phoneImageContainer">
                     <Link to="/phone">
